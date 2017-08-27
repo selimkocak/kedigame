@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC74DBE71F53101C005FCE62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC74DBE61F53101C005FCE62 /* Default-568h@2x.png */; };
+		BC74DBE81F5310BF005FCE62 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCEA7AC51F529B730023C3DB /* Info.plist */; };
+		BCEA7ABA1F529B730023C3DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEA7AB91F529B730023C3DB /* AppDelegate.swift */; };
+		BCEA7ABC1F529B730023C3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEA7ABB1F529B730023C3DB /* ViewController.swift */; };
+		BCEA7ABF1F529B730023C3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEA7ABD1F529B730023C3DB /* Main.storyboard */; };
+		BCEA7AC11F529B730023C3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEA7AC01F529B730023C3DB /* Assets.xcassets */; };
+		BCEA7AC41F529B730023C3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEA7AC21F529B730023C3DB /* LaunchScreen.storyboard */; };
+		BCEA7ACC1F529EC80023C3DB /* garfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCEA7ACB1F529C2A0023C3DB /* garfield.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC74DBE61F53101C005FCE62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BCEA7AB61F529B730023C3DB /* KediGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KediGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEA7AB91F529B730023C3DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCEA7ABB1F529B730023C3DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCEA7ABE1F529B730023C3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEA7AC01F529B730023C3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCEA7AC31F529B730023C3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCEA7AC51F529B730023C3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEA7ACB1F529C2A0023C3DB /* garfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garfield.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEA7AB31F529B730023C3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEA7AAD1F529B730023C3DB = {
+			isa = PBXGroup;
+			children = (
+				BC74DBE61F53101C005FCE62 /* Default-568h@2x.png */,
+				BCEA7AB81F529B730023C3DB /* KediGame */,
+				BCEA7AB71F529B730023C3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEA7AB71F529B730023C3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEA7AB61F529B730023C3DB /* KediGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEA7AB81F529B730023C3DB /* KediGame */ = {
+			isa = PBXGroup;
+			children = (
+				BCEA7ACB1F529C2A0023C3DB /* garfield.jpg */,
+				BCEA7AC51F529B730023C3DB /* Info.plist */,
+				BCEA7AB91F529B730023C3DB /* AppDelegate.swift */,
+				BCEA7ABB1F529B730023C3DB /* ViewController.swift */,
+				BCEA7AC01F529B730023C3DB /* Assets.xcassets */,
+				BCEA7AC21F529B730023C3DB /* LaunchScreen.storyboard */,
+				BCEA7ABD1F529B730023C3DB /* Main.storyboard */,
+			);
+			path = KediGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEA7AB51F529B730023C3DB /* KediGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEA7AC81F529B730023C3DB /* Build configuration list for PBXNativeTarget "KediGame" */;
+			buildPhases = (
+				BCEA7AB21F529B730023C3DB /* Sources */,
+				BCEA7AB31F529B730023C3DB /* Frameworks */,
+				BCEA7AB41F529B730023C3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KediGame;
+			productName = KennyGame;
+			productReference = BCEA7AB61F529B730023C3DB /* KediGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEA7AAE1F529B730023C3DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Selim KOÇAK";
+				TargetAttributes = {
+					BCEA7AB51F529B730023C3DB = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = BCEA7AB11F529B730023C3DB /* Build configuration list for PBXProject "KediGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCEA7AAD1F529B730023C3DB;
+			productRefGroup = BCEA7AB71F529B730023C3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEA7AB51F529B730023C3DB /* KediGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEA7AB41F529B730023C3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEA7AC41F529B730023C3DB /* LaunchScreen.storyboard in Resources */,
+				BCEA7ACC1F529EC80023C3DB /* garfield.jpg in Resources */,
+				BC74DBE81F5310BF005FCE62 /* Info.plist in Resources */,
+				BCEA7AC11F529B730023C3DB /* Assets.xcassets in Resources */,
+				BC74DBE71F53101C005FCE62 /* Default-568h@2x.png in Resources */,
+				BCEA7ABF1F529B730023C3DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEA7AB21F529B730023C3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEA7ABC1F529B730023C3DB /* ViewController.swift in Sources */,
+				BCEA7ABA1F529B730023C3DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCEA7ABD1F529B730023C3DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEA7ABE1F529B730023C3DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEA7AC21F529B730023C3DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEA7AC31F529B730023C3DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEA7AC61F529B730023C3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCEA7AC71F529B730023C3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEA7AC91F529B730023C3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T68HFY4Q36;
+				INFOPLIST_FILE = "$(SRCROOT)/KediGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selimkocak.KediGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEA7ACA1F529B730023C3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T68HFY4Q36;
+				INFOPLIST_FILE = "$(SRCROOT)/KediGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selimkocak.KediGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEA7AB11F529B730023C3DB /* Build configuration list for PBXProject "KediGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEA7AC61F529B730023C3DB /* Debug */,
+				BCEA7AC71F529B730023C3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEA7AC81F529B730023C3DB /* Build configuration list for PBXNativeTarget "KediGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEA7AC91F529B730023C3DB /* Debug */,
+				BCEA7ACA1F529B730023C3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEA7AAE1F529B730023C3DB /* Project object */;
+}
